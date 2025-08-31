@@ -1,0 +1,78 @@
+*::selection{
+    background:pink;
+    color:#2C2C2C;
+}
+
+section{
+    padding:2rem  9%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/img/bi (3).jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #b22b2b;;
+    margin-top: 15px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus{
+    border-color: #b22b2b;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    background-color:#b22b2b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 70%;
+}
+
+button:hover {
+    background-color: #8c1f1f;
+}
